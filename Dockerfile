@@ -1,6 +1,2 @@
-FROM node:slim
-WORKDIR /app
-COPY . /app
-RUN npm install
-EXPOSE 8080
-CMD ["node","app.js" ]
+FROM nginx
+COPY index.html /usr/share/nginx/html
