@@ -4,7 +4,8 @@ const port = 8080;
 
 app.get('/',(req,res) => {
   res.json({
-   "hey":"NodeJs-1"
+   "hey":"NodeJs-1",
+   "hi":"NodeJs-1"
 })
 })
 
